@@ -34,10 +34,6 @@ Wire Wire Line
 	5550 1850 6950 1850
 Wire Wire Line
 	5450 1750 6750 1750
-Wire Wire Line
-	5250 1950 6550 1950
-Wire Wire Line
-	5350 1650 6450 1650
 $Comp
 L Connector:DB25_Female J1
 U 1 1 5F49A4EF
@@ -78,21 +74,21 @@ Wire Wire Line
 	10350 2350 10200 2350
 Wire Wire Line
 	10200 2350 10200 3700
-Text Label 7350 2250 0    50   ~ 0
+Text Label 8950 2250 0    50   ~ 0
 RI
-Text Label 7350 2350 0    50   ~ 0
+Text Label 8950 2350 0    50   ~ 0
 DSR
-Text Label 7350 2150 0    50   ~ 0
+Text Label 8950 2150 0    50   ~ 0
 CD
-Text Label 7350 2050 0    50   ~ 0
+Text Label 8950 2050 0    50   ~ 0
 CTS
-Text Label 7350 1950 0    50   ~ 0
+Text Label 8950 1950 0    50   ~ 0
 RxD
-Text Label 7350 1850 0    50   ~ 0
+Text Label 8950 1850 0    50   ~ 0
 DTR
-Text Label 7350 1750 0    50   ~ 0
+Text Label 8950 1750 0    50   ~ 0
 RTS
-Text Label 7350 1650 0    50   ~ 0
+Text Label 8950 1650 0    50   ~ 0
 TxD
 $Comp
 L Device:R_Small R1
@@ -919,13 +915,6 @@ Connection ~ 9150 4950
 Text Label 5050 4350 0    50   ~ 0
 ~RST
 Wire Wire Line
-	6400 4450 6450 4450
-Wire Wire Line
-	6450 4450 6450 1650
-Connection ~ 6450 1650
-Wire Wire Line
-	6450 1650 7550 1650
-Wire Wire Line
 	8100 4350 8100 4950
 Wire Wire Line
 	8100 4950 9150 4950
@@ -959,13 +948,6 @@ Wire Wire Line
 	6400 4550 6650 4550
 Wire Wire Line
 	7850 4550 7850 4250
-Wire Wire Line
-	6400 4650 6550 4650
-Wire Wire Line
-	6550 4650 6550 1950
-Connection ~ 6550 1950
-Wire Wire Line
-	6550 1950 7550 1950
 $Comp
 L Device:R_Small R13
 U 1 1 5F882328
@@ -1157,4 +1139,22 @@ Wire Wire Line
 Wire Wire Line
 	9850 4950 9850 5550
 Connection ~ 9850 5550
+Wire Wire Line
+	5350 1650 6450 1650
+Wire Wire Line
+	5250 1950 6550 1950
+Wire Wire Line
+	6400 4450 6550 4450
+Wire Wire Line
+	6550 4450 6550 1950
+Connection ~ 6550 1950
+Wire Wire Line
+	6550 1950 7550 1950
+Wire Wire Line
+	6400 4650 6450 4650
+Wire Wire Line
+	6450 4650 6450 1650
+Connection ~ 6450 1650
+Wire Wire Line
+	6450 1650 7550 1650
 $EndSCHEMATC
