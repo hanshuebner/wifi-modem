@@ -86,9 +86,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory "gerbers"))
   )
 
   (net 0 "")
@@ -2762,7 +2762,7 @@
   (segment (start 138.773479 75.390501) (end 137.930468 74.54749) (width 0.127) (layer F.Cu) (net 63))
   (segment (start 152.398234 74.7268) (end 151.734533 75.390501) (width 0.127) (layer F.Cu) (net 63))
 
-  (zone (net 2) (net_name GND) (layer F.Cu) (tstamp 5F4992A5) (hatch edge 0.508)
+  (zone (net 2) (net_name GND) (layer F.Cu) (tstamp 5F496BE1) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
